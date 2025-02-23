@@ -16,13 +16,13 @@ export default function Home() {
         </div>
 
         <h1 className="text-8xl font-medium md:text-8xl mb-16 pl-40 pt-20 pb-10">
-          Hi, <br />I'm David Ragipi.
+          Hi, <br />I&apos;m David Ragipi.
         </h1>
 
         {/* Main Content */}
         <main className="max-w-6xl space-y-12 text-4xl pl-40">
           <p>
-            I'm a software engineer with a passion for building scalable and efficient systems. I'm currently working on a project to help people get their dream jobs.
+            I&apos;m a software engineer with a passion for building scalable and efficient systems. I&apos;m currently working on a project to help people get their dream jobs.
           </p>
           <p>Check it out <a href="https://interviewaibuddy.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:underline">here</a></p>
         </main>
