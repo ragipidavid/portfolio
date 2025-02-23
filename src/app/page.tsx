@@ -9,7 +9,9 @@ export default function Home() {
           <Image
             src="/profile.jpeg"
             alt="Decorative left image"
-            className="w-60 h-60 object-cover rounded-md" // Adjust size as needed
+            width={200}
+            height={200}
+            className="object-cover rounded-md" // Adjust size as needed
           />
         </div>
 
