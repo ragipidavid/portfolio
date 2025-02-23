@@ -1,12 +1,12 @@
 import Link from "next/link";
-
+import Image from "next/image";
 export default function Home() {
   return (
     <div className="min-h-screen bg-background font-mono relative">
       <div className="container mx-auto px-12 py-12 pl-40 pt-20">
         {/* Left Side Image - Top Corner */}
         <div className="absolute left-16 top-30">
-          <img
+          <Image
             src="/profile.jpeg"
             alt="Decorative left image"
             className="w-60 h-60 object-cover rounded-md" // Adjust size as needed
