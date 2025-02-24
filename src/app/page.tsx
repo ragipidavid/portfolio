@@ -31,8 +31,8 @@ export default function Home() {
         <nav className="absolute bottom-16 left-16">
           <ul className="space-y-6">
             <li>
-              <Link href="/about" className="text-3xl hover:underline">
-                About
+              <Link href="/contactme" className="text-3xl hover:underline">
+                Contact Me
               </Link>
             </li>
             <li>
