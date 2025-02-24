@@ -7,10 +7,10 @@ export default function Home() {
         {/* Left Side Image - Top Corner */}
         <div className="absolute left-16 top-30">
           <Image
-            src="/profile.jpeg"
+            src="/IMG_3561.jpeg"
             alt="Decorative left image"
-            width={200}
-            height={200}
+            width={300}
+            height={300}
             className="object-cover rounded-md" // Adjust size as needed
           />
         </div>
