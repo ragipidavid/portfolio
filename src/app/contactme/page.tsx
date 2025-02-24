@@ -14,7 +14,7 @@ const ContactPage = () => {
 
                 <div className="space-y-8 text-xl">
                     <p>
-                        I'm always open to discussing new projects, opportunities, or collaborations.
+                        I&apos;m always open to discussing new projects, opportunities, or collaborations.
                         Feel free to reach out through any of the following methods:
                     </p>
 
