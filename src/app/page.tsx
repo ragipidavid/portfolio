@@ -27,8 +27,8 @@ export default function Home() {
           <Image
             src="/IMG_3561.jpeg"
             alt="Decorative left image"
-            width={300}
-            height={300}
+            width={200}
+            height={200}
             className="object-cover rounded-md" // Adjust size as needed
           />
         </div>
