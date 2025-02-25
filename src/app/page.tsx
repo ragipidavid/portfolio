@@ -21,9 +21,9 @@ export default function Home() {
           }
         `}
       </Script>
-      <div className="container mx-auto px-12 py-12 pl-40 pt-20">
+      <div className="container mx-auto px-4 md:px-12 py-8 md:py-12 md:pl-40 md:pt-20">
         {/* Left Side Image - Top Corner */}
-        <div className="absolute left-16 top-30">
+        <div className="absolute left-16 top-30 hidden md:block">
           <Image
             src="/IMG_3561.jpeg"
             alt="Decorative left image"
@@ -33,12 +33,12 @@ export default function Home() {
           />
         </div>
 
-        <h1 className="text-8xl font-medium md:text-8xl mb-16 pl-40 pt-20 pb-10">
+        <h1 className="text-5xl md:text-8xl font-medium mb-8 md:mb-16 md:pl-40 md:pt-20 md:pb-10 text-center md:text-left">
           Hi, <br />I&apos;m David Ragipi.
         </h1>
 
         {/* Main Content */}
-        <main className="max-w-6xl space-y-12 text-4xl pl-40">
+        <main className="w-full md:max-w-6xl space-y-8 md:space-y-12 text-2xl md:text-4xl md:pl-40 text-center md:text-left">
           <p>
             I&apos;m a software engineer with a passion for building scalable and efficient systems. I&apos;m currently working on a project to help people get their dream jobs.
           </p>
@@ -54,18 +54,8 @@ export default function Home() {
               </Link>
             </li>
             <li>
-              <a href="#gallery" className="text-3xl hover:underline">
-                Gallery
-              </a>
-            </li>
-            <li>
-              <a href="#projects" className="text-3xl hover:underline">
+              <a href="/projects" className="text-3xl hover:underline">
                 Projects
-              </a>
-            </li>
-            <li>
-              <a href="#blogs" className="text-3xl hover:underline">
-                Blogs
               </a>
             </li>
           </ul>
