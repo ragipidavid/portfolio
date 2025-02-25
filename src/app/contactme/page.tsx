@@ -24,8 +24,7 @@ const ContactPage = () => {
                             <p><a href="mailto:davidragipi@gmail.com" className="text-gray-500 hover:underline">davidragipi@gmail.com</a></p>
                             <h2 className="text-2xl mb-2">LinkedIn</h2>
                             <p><a href="https://www.linkedin.com/in/david-ragipi-481b381aa/" className="text-gray-500 hover:underline">linkedin.com/in/david-ragipi</a></p>
-                            <h2 className="text-2xl mb-2">GitHub</h2>
-                            <p><a href="https://github.com/ragipidavid" className="text-gray-500 hover:underline">github.com/ragipidavid</a></p>
+
                         </div>
 
                         {/* Add more contact methods as needed */}
