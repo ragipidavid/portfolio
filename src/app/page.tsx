@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Script from 'next/script';
+import Script from "next/script";
 
 export default function Home() {
   return (
@@ -13,7 +13,7 @@ export default function Home() {
             "name": "David Ragipi",
             "url": "https://davidragipi.com",
             "jobTitle": "Software Engineer",
-            "description": "Software engineer with a passion for building scalable and efficient systems",
+            "description": "Software engineer",
             "sameAs": [
               "https://interviewaibuddy.com"
               // Add your LinkedIn, GitHub, etc. if you have them
@@ -34,15 +34,28 @@ export default function Home() {
         </div>
 
         <h1 className="text-5xl md:text-8xl font-medium mb-8 md:mb-16 md:pl-40 md:pt-20 md:pb-10 text-center md:text-left">
-          Hi, <br />I&apos;m David Ragipi.
+          Hi, <br />
+          I&apos;m David Ragipi.
         </h1>
 
         {/* Main Content */}
         <main className="w-full md:max-w-6xl space-y-8 md:space-y-12 text-2xl md:text-4xl md:pl-40 text-center md:text-left">
           <p>
-            I&apos;m a software engineer with a passion for building scalable and efficient systems. I&apos;m currently working on a project to help people get their dream jobs.
+            I&apos;m a software engineer with a passion for building software
+            that helps people. I&apos;m currently working on a project to help
+            people get their dream jobs.
           </p>
-          <p>Check it out <a href="https://interviewaibuddy.com" target="_blank" rel="noopener noreferrer" className="text-gray-500 hover:underline">here</a></p>
+          <p>
+            Check it out{" "}
+            <a
+              href="https://interviewaibuddy.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:underline"
+            >
+              here
+            </a>
+          </p>
         </main>
 
         {/* Navigation - Larger text and more spacing from corner */}
@@ -62,10 +75,8 @@ export default function Home() {
         </nav>
 
         {/* Bottom Right Image */}
-        <div className="absolute bottom-16 right-16">
-        </div>
+        <div className="absolute bottom-16 right-16"></div>
       </div>
     </div>
-  )
+  );
 }
-
