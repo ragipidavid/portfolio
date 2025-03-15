@@ -46,7 +46,7 @@ const ContactPage = () => {
                   href="https://x.com/DavidRagipi"
                   className="text-gray-500 hover:underline"
                 >
-                  linkedin.com/in/david-ragipi
+                  x.com/DavidRagipi
                 </a>
               </p>
             </div>
@@ -66,4 +66,3 @@ const ContactPage = () => {
 };
 
 export default ContactPage;
-
