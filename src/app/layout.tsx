@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "David Ragipi | Software Engineer",
+  title: "David Ragipi",
   description: "Portfolio of David Ragipi, a software engineer specializing in scalable systems and web development.",
   keywords: ["David Ragipi", "software engineer", "web developer", "portfolio", "projects"],
   authors: [{ name: "David Ragipi" }],
