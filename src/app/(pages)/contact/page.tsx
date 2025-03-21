@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 
 export const metadata = {
   title: "Contact David Ragipi | Software Engineer",
@@ -51,13 +50,6 @@ const ContactPage = () => {
               </p>
             </div>
 
-            {/* Add more contact methods as needed */}
-
-            <div className="mt-12">
-              <Link href="/" className="text-xl hover:underline">
-                ← Back to Home
-              </Link>
-            </div>
           </div>
         </div>
       </div>
