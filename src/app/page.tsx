@@ -1,45 +1,49 @@
-import Link from "next/link";
-import Image from "next/image";
-import Script from "next/script";
+import React from "react";
+
+export const metadata = {
+  title: "David Ragipi | Software Engineer",
+  description: "Portfolio of David Ragipi, a software engineer specializing in scalable systems and web development.",
+};
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-background font-mono relative">
-      <Script id="schema-person" type="application/ld+json">
-        {`
-          {
-            "@context": "https://schema.org",
-            "@type": "Person",
-            "name": "David Ragipi",
-            "url": "https://davidragipi.com",
-            "jobTitle": "Software Engineer",
-            "description": "Software engineer",
-            "sameAs": [
-              "https://interviewaibuddy.com"
-              // Add your LinkedIn, GitHub, etc. if you have them
-            ]
-          }
-        `}
-      </Script>
-      <div className="container mx-auto px-4 md:px-12 py-8 md:py-12 md:pl-40 md:pt-20">
-        {/* Left Side Image - Top Corner */}
-        <div className="absolute left-16 top-30 hidden md:block">
-          <Image
-            src="/IMG_3561.jpeg"
-            alt="Decorative left image"
-            width={250}
-            height={250}
-            className="object-cover rounded-md" // Adjust size as needed
-          />
-        </div>
+    <main>
+      <div>
+        {/* ASCII art for larger screens */}
+        <pre className="hidden min-[1539px]:block font-mono text-xs sm:text-sm md:text-base lg:text-lg mb-8 md:mb-16 text-center md:text-left overflow-hidden whitespace-pre md:pl-40 md:pt-24">
+          {`
 
-        <h1 className="text-5xl md:text-8xl font-medium mb-8 md:mb-16 md:pl-40 md:pt-20 md:pb-10 text-center md:text-left">
-          Hi, <br />
-          I&apos;m David Ragipi.
-        </h1>
+ ______   _______  __   __  ___  ______    ______    _______  _______  ___  _______  ___  
+|      | |   _   ||  | |  ||   ||      |  |    _ |  |   _   ||       ||   ||       ||   | 
+|  _    ||  |_|  ||  |_|  ||   ||  _    | |   | ||  |  |_|  ||    ___||   ||    _  ||   | 
+| | |   ||       ||       ||   || | |   | |   |_||_ |       ||   | __ |   ||   |_| ||   | 
+| |_|   ||       ||       ||   || |_|   | |    __  ||       ||   ||  ||   ||    ___||   | 
+|       ||   _   | |     | |   ||       | |   |  | ||   _   ||   |_| ||   ||   |    |   | 
+|______| |__| |__|  |___|  |___||______|  |___|  |_||__| |__||_______||___||___|    |___| 
 
-        {/* Main Content */}
-        <main className="w-full md:max-w-6xl space-y-8 md:space-y-12 text-2xl md:text-4xl md:pl-40 text-center md:text-left">
+`}
+        </pre>
+
+        {/* Compact ASCII art for smaller screens */}
+        <pre className="max-[1539px]:block hidden font-mono text-[0.45rem] xs:text-xs sm:text-sm mb-8 text-center md:text-left overflow-hidden whitespace-pre md:mt-32 md:pl-40">
+          {`
+ ______   _______  __   __  ___   ______         
+|      | |   _   ||  | |  ||   | |      |        
+|  _    ||  |_|  ||  |_|  ||   | |  _    |       
+| | |   ||       ||       ||   | | | |   |       
+| |_|   ||       ||       ||   | | |_|   |       
+|       ||   _   | |     | |   | |       |       
+|______| |__| |__|  |___|  |___| |______|        
+ ______    _______  _______  ___   _______  ___  
+|    _ |  |   _   ||       ||   | |       ||   | 
+|   | ||  |  |_|  ||    ___||   | |    _  ||   | 
+|   |_||_ |       ||   | __ |   | |   |_| ||   | 
+|    __  ||       ||   ||  ||   | |    ___||   | 
+|   |  | ||   _   ||   |_| ||   | |   |    |   | 
+|___|  |_||__| |__||_______||___| |___|    |___| 
+`}
+        </pre>
+        <div className="w-full md:max-w-6xl space-y-8 md:space-y-12 text-xl md:text-3xl md:pl-40 text-center md:text-left">
           <p>
             I&apos;m a software engineer with a passion for building software
             that helps people. I&apos;m currently working on a project to help
@@ -56,27 +60,8 @@ export default function Home() {
               here
             </a>
           </p>
-        </main>
-
-        {/* Navigation - Larger text and more spacing from corner */}
-        <nav className="absolute bottom-16 left-16">
-          <ul className="space-y-6">
-            <li>
-              <Link href="/contactme" className="text-3xl hover:underline">
-                Contact Me
-              </Link>
-            </li>
-            <li>
-              <a href="/projects" className="text-3xl hover:underline">
-                Projects
-              </a>
-            </li>
-          </ul>
-        </nav>
-
-        {/* Bottom Right Image */}
-        <div className="absolute bottom-16 right-16"></div>
+        </div>
       </div>
-    </div>
+    </main>
   );
 }

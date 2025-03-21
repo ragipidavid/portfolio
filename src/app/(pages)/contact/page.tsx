@@ -9,8 +9,8 @@ export const metadata = {
 
 const ContactPage = () => {
   return (
-    <div className="min-h-screen bg-background font-mono p-12">
-      <div className="max-w-4xl mx-auto">
+    <main>
+      <div className="md:pt-32 md:pl-40 max-w-4xl">
         <h1 className="text-6xl font-medium mb-12">Contact Me</h1>
 
         <div className="space-y-8 text-xl">
@@ -61,7 +61,7 @@ const ContactPage = () => {
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 
