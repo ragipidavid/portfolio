@@ -30,7 +30,7 @@ const ContactPage = () => {
                   davidragipi@gmail.com
                 </a>
               </p>
-              <h2 className="text-2xl mb-2">LinkedIn</h2>
+              <h2 className="text-2xl mt-6 mb-2">LinkedIn</h2>
               <p>
                 <a
                   href="https://www.linkedin.com/in/david-ragipi-481b381aa/"
@@ -39,7 +39,7 @@ const ContactPage = () => {
                   linkedin.com/in/david-ragipi
                 </a>
               </p>
-              <h2 className="text-2xl mb-2">X</h2>
+              <h2 className="text-2xl mt-6 mb-2">X</h2>
               <p>
                 <a
                   href="https://x.com/DavidRagipi"
