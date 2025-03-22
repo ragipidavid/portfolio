@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const metadata = {
-    title: 'Projects | David Ragipi',
+    title: 'Projects',
     description: 'Explore David Ragipi\'s software engineering projects and portfolio work.',
 };
 

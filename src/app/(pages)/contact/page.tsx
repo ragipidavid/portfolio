@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-  title: "Contact David Ragipi | Software Engineer",
+  title: "Contact",
   description:
     "Get in touch with David Ragipi for collaboration, job opportunities, or questions about software engineering projects.",
 };
@@ -46,6 +46,15 @@ const ContactPage = () => {
                   className="text-gray-500 hover:underline"
                 >
                   x.com/DavidRagipi
+                </a>
+              </p>
+              <h2 className="text-2xl mt-6 mb-2">Github</h2>
+              <p>
+                <a
+                  href="https://github.com/ragipidavid"
+                  className="text-gray-500 hover:underline"
+                >
+                  github.com/ragipidavid
                 </a>
               </p>
             </div>

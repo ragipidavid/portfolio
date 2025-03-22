@@ -10,7 +10,7 @@ export default function Home() {
     <main>
       <div>
         {/* ASCII art for larger screens */}
-        <pre className="hidden min-[1539px]:block font-mono text-xs sm:text-sm md:text-base lg:text-lg mb-8 md:mb-16 text-center md:text-left overflow-hidden whitespace-pre md:pl-40 md:pt-24 leading-none">
+        <pre className="hidden min-[1539px]:block font-mono text-xs sm:text-sm md:text-base lg:text-lg mb-8 md:mb-16 text-center md:text-left overflow-hidden whitespace-pre md:pl-40 md:pt-24 leading-[0.6]">
           {`
 ██████╗  █████╗ ██╗   ██╗██╗██████╗     ██████╗  █████╗  ██████╗ ██╗██████╗ ██╗
 ██╔══██╗██╔══██╗██║   ██║██║██╔══██╗    ██╔══██╗██╔══██╗██╔════╝ ██║██╔══██╗██║
@@ -21,8 +21,9 @@ export default function Home() {
 `}
         </pre>
 
+
         {/* Compact ASCII art for smaller screens */}
-        <pre className="max-[1539px]:block hidden font-mono text-[0.45rem] xs:text-xs sm:text-sm mb-8 text-center md:text-left overflow-hidden whitespace-pre md:mt-32 md:pl-40 leading-none">
+        <pre className="max-[1539px]:block hidden font-mono text-[0.45rem] xs:text-xs sm:text-sm mb-8 text-center md:text-left overflow-hidden whitespace-pre md:mt-32 md:pl-40 leading-[0.6]">
           {`
 
 ██████╗  █████╗ ██╗   ██╗██╗██████╗    
@@ -60,6 +61,6 @@ export default function Home() {
           </p>
         </div>
       </div>
-    </main>
+    </main >
   );
 }

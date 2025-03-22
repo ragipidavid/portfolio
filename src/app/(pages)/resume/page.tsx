@@ -1,7 +1,7 @@
 import React from "react";
 
 export const metadata = {
-    title: "Resume | David Ragipi",
+    title: "Resume",
     description: "View David Ragipi's resume and professional experience as a software engineer.",
 };
 
@@ -39,7 +39,7 @@ const ResumePage = () => {
                     </p>
                 </div>
                 <div className="space-y-4 text-lg mt-10">
-                    <a href="/DavidRagipi.pdf" className="text-gray-500 hover:text-gray-700 font-medium">View full resume</a>
+                    <a href="/DavidRagipi.pdf" className="text-gray-500 hover:underline font-medium">View full resume</a>
                 </div>
             </div>
         </main>
