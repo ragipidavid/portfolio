@@ -17,8 +17,15 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "David Ragipi",
-  description: "Portfolio of David Ragipi, a software engineer specializing in scalable systems and web development.",
-  keywords: ["David Ragipi", "software engineer", "web developer", "portfolio", "projects"],
+  description:
+    "Portfolio of David Ragipi, a software engineer specializing in scalable systems and web development.",
+  keywords: [
+    "David Ragipi",
+    "software engineer",
+    "web developer",
+    "portfolio",
+    "projects",
+  ],
   authors: [{ name: "David Ragipi" }],
   creator: "David Ragipi",
   openGraph: {
@@ -26,13 +33,15 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://davidragipi.com",
     title: "David Ragipi | Software Engineer",
-    description: "Portfolio of David Ragipi, a software engineer specializing in scalable systems and web development.",
+    description:
+      "Portfolio of David Ragipi, a software engineer specializing in scalable systems and web development.",
     siteName: "David Ragipi Portfolio",
   },
   twitter: {
     card: "summary_large_image",
     title: "David Ragipi | Software Engineer",
-    description: "Portfolio of David Ragipi, a software engineer specializing in scalable systems and web development.",
+    description:
+      "Portfolio of David Ragipi, a software engineer specializing in scalable systems and web development.",
   },
   robots: {
     index: true,
@@ -58,7 +67,6 @@ export default function RootLayout({
                 <Image
                   src="/IMG_3561.jpeg"
                   alt="Decorative left image"
-
                   width={250}
                   height={250}
                 />
