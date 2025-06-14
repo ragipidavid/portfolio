@@ -11,7 +11,7 @@ export default function Home() {
     <main>
       <div>
         <div className="w-full md:max-w-6xl space-y-8 md:space-y-12 text-xl md:text-3xl md:pl-40 text-center md:text-left">
-          <h1>Hi, I'm David Ragipi</h1>
+          <h1>Hi, I&apos;m David Ragipi</h1>
           <p>
             I&apos;m a software engineer with a passion for building software
             that helps people. I&apos;m currently working on a project to help
