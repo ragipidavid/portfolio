@@ -12,8 +12,7 @@ const MePage = () => {
       <div className="w-full  md:max-w-6xl space-y-8 md:space-y-12 text-2xl md:text-4xl md:pl-40 text-center md:text-left">
         <p>
           I&apos;m a software engineer with a passion for building software that
-          helps people. I&apos;m currently working on a project to help people
-          get their dream jobs.
+          helps people.
         </p>
         <p>
           Check it out{" "}
