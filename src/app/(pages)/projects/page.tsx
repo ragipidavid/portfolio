@@ -18,14 +18,7 @@ const ProjectsPage = () => {
           <div className="space-y-4">
             <div>
               <h2 className="text-2xl mb-2">Interview Buddy</h2>
-              <p>
-                <a
-                  href="https://app.interviewaibuddy.com"
-                  className="text-gray-500 hover:underline"
-                >
-                  interviewaibuddy.com
-                </a>
-              </p>
+
             </div>
             <div>
               <h2 className="text-2xl mb-2">Contributing at</h2>
