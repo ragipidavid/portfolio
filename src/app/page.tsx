@@ -14,19 +14,7 @@ export default function Home() {
           <h1>Hi, I&apos;m David Ragipi</h1>
           <p>
             I&apos;m a software engineer with a passion for building software
-            that helps people. I&apos;m currently working on a project to help
-            people get their dream jobs.
-          </p>
-          <p>
-            Check it out{" "}
-            <a
-              href="https://interviewaibuddy.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-500 hover:underline"
-            >
-              here
-            </a>
+            that helps people.
           </p>
         </div>
       </div>
